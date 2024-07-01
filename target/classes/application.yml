@@ -1,0 +1,18 @@
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    disable-swagger-default-url: true
+    url: /v3/api-docs
+
+app:
+  commercetools:
+    projectKey: mytestproj1
+    clientId: q5ZHDKyHSccjZ65oc7l1UXuv
+    clientSecret: KIlNyd7cQ70GJu83GKRm3ld6m3yQtZxX
+  braintree:
+    merchantId: 62cm9m8nh7d5mksf
+    publicKey: y879y7jd3pw2thgp
+    privateKey: bd5d1b9429c63390e6346ab3c4edc815
+
+server:
+  port: 8080
